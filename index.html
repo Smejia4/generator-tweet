@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generator tweet</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido</h1>
+        <p id="p-name"></p>
+        <div class="container-circle">
+            <p id="p-initial"></p>
+        </div>
+    </header>
+    <main>
+        
+        <div id="container-form">
+                <label for="txt-name">Digite su nombre</label>
+                <input type="text" placeholder="Nombre" id="txt-name">
+                <label for="txt-comment">Comentario</label>
+                <textarea placeholder="Aqui su comentario" id="txt-comment" maxlength="280"></textarea>
+                <p id="p-counter"> caracteres ➡️ 280</p>
+                    <div class="btns">
+                        <button id="btn-publish" class="btn">Publicar</button>
+                        <button id="btn-convert" class="btn">Convert</button>
+                    </div>    
+        </div>
+
+        <p id="p-comment"></p>
+    </main>
+<script src="app.js"></script>   
+</body>
+</html>
